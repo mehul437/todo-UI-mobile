@@ -1,0 +1,363 @@
+
+body{
+ background-color:white;
+}
+a{
+    text-decoration: none;
+}
+.task{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(22, 22, 22);
+    margin-left: 400px;
+}
+
+.list{
+    font-size: 48px;
+    color:rgb(99, 98, 98);
+    margin-left: 5px;    
+}
+.top{
+    margin-top: 60px;
+      position: relative;
+}
+
+.fl{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.icon{
+    height: 42px;
+    width: 42px;
+    border-radius:50%;
+    padding-left: 12px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    background-color:rgb(245, 56, 23);
+    top: 9px;
+    left: 635px;
+    position: absolute;
+}
+.fa-plus{
+    color: white;
+}
+.trip1{
+    border: 1px rgb(156, 156, 156) solid;
+    box-shadow:2px 2px 2px rgb(133, 139, 145);
+    height:54px;
+    width:286px;
+    margin-top: 46px;
+    margin-left: 27px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-top: 14px;
+    font-size:x-large;
+    color:rgb(73, 72, 72);
+}
+/*_________________________*/
+.arrow{
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    padding-top: 9px;
+    padding-left: 9px;
+    box-sizing: border-box;
+    background-color:rgb(247, 53, 19);
+    position: absolute;
+    left: 342px;
+    top:3px;
+
+}
+.fa-long-arrow-alt-left{
+    color: white;
+}
+.trip2{
+    position: relative;
+    margin-top: 60px;
+    margin-left: 20px;
+    
+}
+.trip2 span{
+    font-size: 50px;
+    font-weight: 700;
+    padding-left:415px ;
+}
+.box2{
+    width: 340px;
+    height: 465px;
+    border-radius: 7px;
+    border: 1px rgb(219, 71, 71) solid;
+    margin-top: 40px;
+    margin-left: 400px;
+    box-sizing: border-box;
+    position: relative;
+}
+.boxtrip2{
+    font-size: 39px;
+    color: rgb(223, 12, 12);
+    padding-left: 70px;
+}
+hr{
+    width: 50px;
+    position: relative;
+}
+.line{
+    width: 252px;
+    left: 32px;
+    
+}
+.under2{
+    text-decoration:rgb(223, 12, 12) line-through;
+    font-size: 33px;
+     color: rgb(223, 12, 12);
+     font-weight: 700;
+     padding-left: 52px;
+    
+
+}
+input{
+    margin-left: 32px;
+}
+input.sim{
+    height: 18px;
+    width: 18px;
+    border: 1px black solid;
+}
+.checky{
+    font-size: 33px;
+
+}
+
+.icon2{
+    height: 47px;
+    width: 47px;
+    border-radius:50%;
+    padding-left: 15px;
+    padding-top: 9px;
+    box-sizing: border-box;
+    background-color:rgb(245, 56, 23);
+    bottom: 9px;
+    right: 6px;
+    position: absolute;
+}
+.bl{
+    filter: blur(9px);
+}
+/* --------------=-=-=-=-=-=-=*/
+
+.adlis{
+    height: 240px;
+    width: 390px;
+    border-radius:7px;
+    border :1px rgb(223, 29, 29) solid;
+    position: absolute;
+    top: 220px;
+    left: 378px;
+    box-shadow: 5px 5px 5px gray;
+    background-color: white;
+}
+.label{
+    font-size: 33px;
+    color: rgb(206, 31, 31);
+    padding-left: 78px;
+}
+.adlis input{
+    border:1px rgb(211, 31, 31) solid;
+    height: 33px;
+    width: 275px;
+    border-radius: 7px;
+    margin-left: 49px;
+}
+.sub{
+    padding: 7px 19px 7px 19px;
+    border: 1px solid red;
+    border-radius: 22px;
+    font-size: 29px;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(209, 34, 34) ;
+    margin-left: 135px;
+}
+@media screen and (min-width:360px) and (max-width:640px)
+    {
+
+body{
+ background-color:white;
+}
+
+.task{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(22, 22, 22);
+    margin-left: 20px;
+}
+
+.list{
+    font-size: 48px;
+    color:rgb(99, 98, 98);
+    margin-left: 5px;    
+}
+.top{
+    margin-top: 60px;
+      position: relative;
+}
+
+.fl{
+    display: flex;
+    flex-direction: column;
+
+}
+.icon{
+    height: 42px;
+    width: 42px;
+    border-radius:50%;
+    padding-left: 12px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    background-color:rgb(245, 56, 23);
+    top: 9px;
+    left: 235px;
+    position: absolute;
+}
+.fa-plus{
+    color: white;
+}
+.trip1{
+    border: 1px rgb(156, 156, 156) solid;
+    box-shadow:2px 2px 2px rgb(133, 139, 145);
+    height:54px;
+    width:286px;
+    margin-top: 46px;
+    margin-left: 27px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-top: 14px;
+    font-size:x-large;
+    color:rgb(73, 72, 72);
+}
+/*_________________________*/
+.arrow{
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    padding-top: 7px;
+    padding-left: 7px;
+    box-sizing: border-box;
+    background-color:rgb(247, 53, 19);
+    position: absolute;
+    left: 26px;
+    top:3px;
+
+}
+.fa-long-arrow-alt-left{
+    color: white;
+}
+.trip2{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 20px;
+    
+}
+.trip2 span{
+    font-size: 40px;
+    font-weight: 700;
+    padding-left:84px ;
+}
+.box2{
+    width: 238px;
+    height: 400px;
+    border-radius: 7px;
+    border: 1px rgb(219, 71, 71) solid;
+    margin-top: 48px;
+    margin-left: 67px;
+    box-sizing: border-box;
+    position: relative;
+}
+.boxtrip2{
+    font-size: 30px;
+    color: rgb(223, 12, 12);
+    padding-left: 40px;
+}
+hr{
+    width: 50px;
+    position: relative;
+}
+.line{
+    width: 172px;
+    left: 32px;
+    
+}
+.under2{
+    text-decoration:rgb(223, 12, 12) line-through;
+    font-size: x-large;
+     color: rgb(223, 12, 12);
+     font-weight: 700;
+     padding-left: 33px;
+    
+
+}
+input.sim{
+    height: 18px;
+    width: 18px;
+    border: 18px black solid;
+}
+.checky{
+    font-size: x-large;
+
+}
+
+.icon2{
+    height: 42px;
+    width: 42px;
+    border-radius:50%;
+    padding-left: 12px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    background-color:rgb(245, 56, 23);
+    bottom: 9px;
+    right: 6px;
+    position: absolute;
+}
+.bl{
+    filter: blur(9px);
+}
+/* --------------=-=-=-=-=-=-=*/
+
+.adlis{
+    height: 203px;
+    width: 322px;
+    border-radius:7px;
+    border :1px rgb(223, 29, 29) solid;
+    position: absolute;
+    top: 193px;
+    left: 36px;
+    box-shadow: 3px 3px 3px gray;
+    background-color: white;
+}
+.label{
+    font-size: 26px;
+    color: rgb(206, 31, 31);
+    padding-left: 74px;
+}
+.adlis input{
+    border:1px rgb(211, 31, 31) solid;
+    height: 25px;
+    width: 237px;
+    border-radius: 7px;
+    margin-left: 40px;
+}
+.sub{
+    padding: 7px 19px 7px 19px;
+    border: 1px solid red;
+    border-radius: 22px;
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+    background-color:rgb(209, 34, 34) ;
+    margin-left: 108px;
+}
+}
