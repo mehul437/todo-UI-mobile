@@ -265,15 +265,15 @@ body{
 }
 /*_________________________*/
 .arrow{
-    height: 47px;
-    width: 47px;
+    height: 43px;
+    width: 43px;
     border-radius: 50%;
-    padding-top: 7px;
-    padding-left: 7px;
+    padding-top: 5px;
+    padding-left: 5px;
     box-sizing: border-box;
     background-color:rgb(247, 53, 19);
     position: absolute;
-    left: 26px;
+    left: 15px;
     top:3px;
 
 }
@@ -287,9 +287,9 @@ body{
     
 }
 .trip2 span{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
-    padding-left:84px ;
+    padding-left:73px ;
 }
 .box2{
     width: 238px;
